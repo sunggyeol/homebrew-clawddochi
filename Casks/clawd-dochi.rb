@@ -7,7 +7,7 @@ cask "clawd-dochi" do
   desc "Menu-bar + desktop hedgehog pet that reacts to Claude Code sessions"
   homepage "https://github.com/sunggyeol/ClawdDochi"
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: ">= :tahoe"
 
   app "ClawdDochi.app"
 
