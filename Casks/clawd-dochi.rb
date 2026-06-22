@@ -1,13 +1,13 @@
 cask "clawd-dochi" do
-  version "1.4"
-  sha256 "d60fd2c330d171b8fc476cb5f3de580fc6b6d67da0d37d504884ea1a724d5149"
+  version "1.5"
+  sha256 "677ac06155c8f0e40d23929edd8a1b778a925a772a51833bc89c2ce05de0827a"
 
   url "https://github.com/sunggyeol/ClawdDochi/releases/download/v#{version}/ClawdDochi-#{version}.dmg"
   name "ClawdDochi"
   desc "Menu-bar + desktop hedgehog pet that reacts to Claude Code sessions"
   homepage "https://github.com/sunggyeol/ClawdDochi"
 
-  depends_on macos: ">= :tahoe"
+  depends_on macos: ">= :monterey"
 
   # The app updates itself via Sparkle, so Homebrew should not flag it stale.
   auto_updates true
